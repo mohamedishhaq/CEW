@@ -6,5 +6,14 @@ and compute the perimeter and area of a rectangle.
 
 int main(){
   
+  int height;
+  int width;
+  
+  printf("Enter the Height and Width of rectangle in cm:");
+  scanf("%d%d",&height,&width);
+
+  printf("Perimeter: %dcm\n",2*(height+width));
+  printf("Area: %d sq.cm",(height*width));
+
   return 0;
 }
